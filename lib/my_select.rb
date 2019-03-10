@@ -4,8 +4,6 @@ def my_select(collection)
  collection.select do |i|
    yield(collection)
    arr << i
- end 
+ end
  arr
 end
-
-
