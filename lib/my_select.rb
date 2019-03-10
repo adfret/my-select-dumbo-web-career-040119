@@ -3,6 +3,7 @@ def my_select(collection)
  arr = []
  collection.select do |i|
    yield(collection)
+   if i.even?
    arr << i
  end
  arr
