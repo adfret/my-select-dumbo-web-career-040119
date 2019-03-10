@@ -6,5 +6,6 @@ def my_select(collection)
    if i.even?
    arr << i
  end
+ end
  arr
 end
