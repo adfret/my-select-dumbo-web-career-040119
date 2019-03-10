@@ -2,7 +2,7 @@ def my_select(collection)
  # your code here!
  arr = []
  collection.select do |i|
-   yield(collection)
+   yield collection[i]
    if i.even?
    arr << i
  end
